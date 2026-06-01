@@ -15,7 +15,7 @@ To unblock the GA loop execution, we have implemented automated evaluation metri
 
 3. **Text Embeddings Metric:**
    * Measures semantic simiularity.
-   * Uses SBERT text embeddings (`all-MiniLM-L6-v2`) to do the measure consecutively between sequential 4-sentence text chunks.
+   * Uses a pre-trained SBERT text embeddings model (`all-MiniLM-L6-v2`) to measure consecutively between sequential 4-sentence text chunks.
 
 4. **Interaction Opportunity Density (IOD) Metric:**
    * Measures how often a learner is asked to actively engage with the course material.
