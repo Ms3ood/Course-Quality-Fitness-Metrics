@@ -91,6 +91,8 @@ root_generated_path = "/Users/ms3ood/Desktop/learnpack-generator-6fd80dd"
 search_pattern = os.path.join(root_generated_path, "*", "lessons", "**", "*")
 all_files = glob.glob(search_pattern, recursive=True)
 
+all_files.sort()
+
 print(f"Found {len(all_files)} total items across all runs.\n")
 
 for file_path in all_files:
